@@ -9,24 +9,24 @@
             {{$t('m.Where_is_the_input_and_the_output_answer_part_7')}} <code>printf</code> {{$t('m.Where_is_the_input_and_the_output_answer_part_8')}} <code>cout</code> {{$t('m.Where_is_the_input_and_the_output_answer_part_9')}} <code>{{$t('m.Runtime_Error')}}</code>.
           </p>
         </li>
-        <li>「稳点」是什么？
-          <p>「稳健 OnlineJudge」的稳点系统。
-		        您可以通过签到、做题来获取稳点，到达一定稳点可以升级，并获得等级称号。
+        <li>「穩點」是什麼？
+          <p>「穩健 OnlineJudge」的穩點系統。
+		        您可以通過簽到、做題來獲取穩點，到達一定穩點可以升級，並獲得等級稱號。
           </p>
-          <p>稳点计算说明:
-            <p>1、签到每次获得 <code>1</code> 稳点。在连续签到的第 <code>3、7、15、30、60、90、120、240、365</code> 天可以分别额外获得 <code>1、2、4、7、12、20、33、54、88</code> 稳点（没错，就是斐波那契数列）；</p>
-            <p>2、每道题目，<strong>第一次 AC </strong>时根据难度（Low、Mid、High），可分别获得 <code>3、8、15</code> 稳点。</p>
+          <p>穩點計算說明:
+            <p>1、簽到每次獲得 <code>1</code> 穩點。在連續簽到的第 <code>3、7、15、30、60、90、120、240、365</code> 天可以分別額外獲得 <code>1、2、4、7、12、20、33、54、88</code> 穩點（沒錯，就是斐波那契數列）；</p>
+            <p>2、每道題目，<strong>第一次 AC </strong>時根據難度（Low、Mid、High），可分別獲得 <code>3、8、15</code> 穩點。 </p>
           </p>
           <p>
-            等级称号如下：
-            <p>0 - 99 稳点: <Tag color="#636e72" style="margin-right:-15px;">小白兔</Tag></p>
-            <p>100 - 199 稳点: <Tag color="primary" style="margin-right:-15px;">菜鸟</Tag></p>
-            <p>200 - 499 稳点: <Tag color="#6c5ce7" style="margin-right:-15px;">键盘虾</Tag></p>
-            <p>500 - 999 稳点: <Tag color="#1dd1a1" style="margin-right:-15px;">马农</Tag></p>
-            <p>1000 - 4999 稳点: <Tag color="#ff9f43" style="margin-right:-15px;">牛人</Tag></p>
-            <p>5000 - 9999 稳点: <Tag color="#ee5253" style="margin-right:-15px;">程序猿</Tag></p>
-            <p>10000 - ∞ 稳点: <Tag color="#222f3e" style="margin-right:-15px;">攻城狮</Tag></p>
-            <p>分别是0 - 6级（程序猿都是从 0 开始的嘛），每个等级都有自己的称号</p>
+            等級稱號如下：
+            <p>0 - 99 穩點: <Tag color="#636e72" style="margin-right:-15px;">小白兔</Tag></p>
+            <p>100 - 199 穩點: <Tag color="primary" style="margin-right:-15px;">菜鳥</Tag></p>
+            <p>200 - 499 穩點: <Tag color="#6c5ce7" style="margin-right:-15px;">鍵盤蝦</Tag></p>
+            <p>500 - 999 穩點: <Tag color="#1dd1a1" style="margin-right:-15px;">馬農</Tag></p>
+            <p>1000 - 4999 穩點: <Tag color="#ff9f43" style="margin-right:-15px;">牛人</Tag></p>
+            <p>5000 - 9999 穩點: <Tag color="#ee5253" style="margin-right:-15px;">程序猿</Tag></p>
+            <p>10000 - ∞ 穩點: <Tag color="#222f3e" style="margin-right:-15px;">攻城獅</Tag></p>
+            <p>分別是0 - 6級（程序猿都是從 0 開始的嘛），每個等級都有自己的稱號</p>
           </p>
         </li>
         <li>{{$t('m.What_is_the_meaning_of_submission_execution_time')}} 
