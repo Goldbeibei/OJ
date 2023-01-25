@@ -136,17 +136,17 @@ export const USER_GRADE = {
     color: '#636e72'
   },
   '1': {
-    name: '菜鸟',
+    name: '菜鳥',
     short: '1',
     color: 'primary'
   },
   '2': {
-    name: '键盘虾',
+    name: '鍵盤蝦',
     short: '2',
     color: '#6c5ce7'
   },
   '3': {
-    name: '马农',
+    name: '馬農',
     short: '3',
     color: '#1dd1a1'
   },
@@ -161,7 +161,7 @@ export const USER_GRADE = {
     color: '#ee5253'
   },
   '6': {
-    name: '攻城狮',
+    name: '攻城獅',
     short: '6',
     color: '#222f3e'
   }

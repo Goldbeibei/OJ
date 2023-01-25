@@ -15,11 +15,11 @@
           <div style="margin:50% 15%; font-size:18px; text-align:center; width:26px; line-height:28px; background: transparent; color:#636e72;">{{nowWeek}}</div>
         </Sider>
       </Layout>
-      <div v-if="days" style="margin:0 auto; margin-top:-30px; margin-bottom:15px; font-size:12px; text-align:center; width:160px; line-height:16px; background: transparent; color:#636e72;">您已在「{{website.website_name}}」<br>连续签到了 <strong>{{days}}</strong> 天</div>
+      <div v-if="days" style="margin:0 auto; margin-top:-30px; margin-bottom:15px; font-size:12px; text-align:center; width:160px; line-height:16px; background: transparent; color:#636e72;">您已在「{{website.website_name}}」<br>連續簽到了 <strong>{{days}}</strong> 天</div>
       <div style="margin-top:-10px; margin:0 auto; font-size:14px; text-align:center; width:80%; line-height:16px; background: transparent; color:#636e72;">{{word}}</div>
-      <Button v-if="!SighinStatus" type="primary" icon="ios-alarm" @click="Sighin" long style="margin-top:20px; margin-bottom:20px; margin-left:10%; width:80%;">签到</Button>
+      <Button v-if="!SighinStatus" type="primary" icon="ios-alarm" @click="Sighin" long style="margin-top:20px; margin-bottom:20px; margin-left:10%; width:80%;">簽到</Button>
       <Button v-else type="primary" icon="ios-alarm" long disabled style="margin-top:20px; margin-bottom:20px; margin-left:10%; width:80%;">
-          签到
+         簽到
       </Button>
     </Panel>
 
@@ -165,14 +165,14 @@
         api.UserSighin().then(res => {
           if (res.data.data === 'Singined') {
             this.$Notice.error({
-              title: '签到失败',
-              desc: '稳健佬，您已经签过到了呀 ~ 明天再来哦'
+              title: '簽到失敗',
+              desc: '穩健佬，您已經簽到到了呀 ~ 明天再来哦'
             })
             this.isSighin()
           } else {
             this.$Notice.success({
-              title: '签到成功',
-              desc: '恭喜稳健佬，获得 ' + res.data.data.experience + ' 稳点，明天记得来签到哦'
+              title: '簽到成功',
+              desc: '恭喜穩健佬，獲得 ' + res.data.data.experience + ' 穩點，明天記得來簽到哦'
             })
             this.days += 1
             this.SighinStatus = true

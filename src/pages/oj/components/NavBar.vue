@@ -64,14 +64,14 @@
       <Dropdown @on-click="switchChange" class="ivu-menu-submenu">
         <div>
 		  <Icon type="ios-browsers"></Icon>
-		  &emsp;换肤
+		  &emsp;換膚
           <Icon type="ios-arrow-down"></Icon>
         </div>
         <DropdownMenu slot="list">
-          <DropdownItem name="1"><Icon type="ios-browsers" color="#2d8cf0" />&emsp;胖次蓝</DropdownItem>
+          <DropdownItem name="1"><Icon type="ios-browsers" color="#2d8cf0" />&emsp;胖次藍</DropdownItem>
           <DropdownItem name="2"><Icon type="ios-browsers" color="#f58f98" />&emsp;少女粉</DropdownItem>
-	        <DropdownItem name="4"><Icon type="ios-browsers" color="#d63031" />&emsp;姨妈红</DropdownItem>
-		      <DropdownItem name="5"><Icon type="ios-browsers" color="#00b894" />&emsp;原谅绿</DropdownItem>
+	        <DropdownItem name="4"><Icon type="ios-browsers" color="#d63031" />&emsp;姨媽紅</DropdownItem>
+		      <DropdownItem name="5"><Icon type="ios-browsers" color="#00b894" />&emsp;原諒綠</DropdownItem>
           <DropdownItem name="3"><Icon type="ios-browsers" color="#673AB7" />&emsp;基佬紫</DropdownItem>
         </DropdownMenu>
       </Dropdown>
@@ -93,7 +93,7 @@
       </template>
       <template v-else>
         <Dropdown class="drop-menu" @on-click="handleRoute" placement="bottom" trigger="click">
-          <Poptip trigger="hover" :title="`当前 ${ profile.grade } 级`" :content="`当前稳点： ${ profile.experience } 点`" width="200px">
+          <Poptip trigger="hover" :title="`當前 ${ profile.grade } 級`" :content="`當前穩點： ${ profile.experience } 點`" width="200px">
             <Tag v-if="profile.user.title" :color="profile.user.title_color" style="margin-right:-15px;">{{ profile.user.title }}</Tag>
             <Tag v-else :color="color" style="margin-right:-15px;">{{ gradename }}</Tag>
           </Poptip>

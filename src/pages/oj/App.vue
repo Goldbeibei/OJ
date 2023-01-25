@@ -8,8 +8,8 @@
       </transition>
       <div class="footer">
         <p v-html="website.website_footer"></p>
-        <p>Modified by <a href="https://blog.zklcdc.top/">Harry-zklcdc</a></p>
-        <p>Powered by <a href="https://github.com/QingdaoU/OnlineJudge">OnlineJudge</a>&nbsp; <span v-if="version">Version: {{ version }}</span></p>
+        <p>Modified by <a href="https://jefery.ga/">Jefery</a></p>
+        <p>Powered by <a href="https://github.com/Goldbeibei">OnlineJudge</a>&nbsp; <span v-if="version">Version: 20230126 v2.0</span></p>
       </div>
     </div>
 	<BackTop></BackTop>
